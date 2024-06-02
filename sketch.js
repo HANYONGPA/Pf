@@ -1,14 +1,14 @@
-let VCR_OSD_MONO;
-function preload() {
-  VCR_OSD_MONO = loadFont("/assets/fonts/VCR_OSD.ttf");
-}
+// let VCR_OSD_MONO;
+// function preload() {
+//   VCR_OSD_MONO = loadFont("/assets/fonts/VCR_OSD.ttf");
+// }
 
 let paper = [];
 let debugMode = false;
 
 function setup() {
   createCanvas(windowWidth, windowHeight);
-  textFont(VCR_OSD_MONO);
+  // textFont(VCR_OSD_MONO);
   textAlign(CENTER, CENTER);
   textSize(20);
   // for (let i = 0; i < 11; i++) {
@@ -32,7 +32,7 @@ function draw() {
   }
 
   push();
-  textFont(VCR_OSD_MONO);
+  // textFont(VCR_OSD_MONO);
   textSize(20);
   text(
     "Press '1' to fold the paper & Press '0' to reset",
